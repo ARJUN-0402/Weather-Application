@@ -3,7 +3,7 @@ import requests # The requests library is for making HTTP requests to a URL.
 # --- IMPORTANT SETUP ---
 # Replace this placeholder with your actual API key from OpenWeatherMap.
 # You can get one for free by signing up at https://openweathermap.org/api
-API_KEY = "8f2d722f0631e9853f37f0c6e0d78b2e"
+API_KEY = "YOUR_OWN_API_KEY"
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
 
 def get_weather(city_name):
@@ -69,4 +69,5 @@ if __name__ == "__main__":
         get_weather(city)
 
     print("Thank you for using the Weather App!")
+
 
